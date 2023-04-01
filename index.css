@@ -1,0 +1,108 @@
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			line-height: 1.5;
+			margin: 0;
+			padding: 0;
+		}
+                
+		
+		
+		@media screen and (min-width: 768px) {
+			body {
+				font-size: 18px;
+			}
+		}
+		
+		button {
+			background-color: #3498db;
+			border: none;
+			color: #fff;
+			cursor: pointer;
+			padding: 10px 20px;
+			transition: background-color 0.5s ease;
+		}
+		
+		button:hover {
+			background-color: #2980b9;
+		}
+		
+		button:before {
+			content: "\f067";
+			font-family: FontAwesome;
+			margin-right: 10px;
+		}
+		
+		/* Use CSS transformations */
+		.card {
+			background-color: #fff;
+			border-radius: 5px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+			padding: 20px;
+			transform: translateY(0);
+			transition: transform 0.5s ease;
+                        padding: 160px;
+                        background-color: slategray;    
+		}
+		
+		.card:hover {
+			transform: translateY(-10px);
+                        background-color: gray;
+		}
+		
+		/* Use CSS animations */
+		@keyframes fade-in {
+			from { opacity: 0; }
+			to { opacity: 1; }
+		}
+		
+		.header {
+			animation: fade-in 1s ease;
+			background-color: #fff;
+			border-bottom: 1px solid #ddd;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			padding: 10px;
+			position: fixed;
+			top: 0;
+			width: 100%;
+			z-index: 1;
+                            background: gray;
+		}
+		
+		.logo {
+			font-size: 24px;
+			font-weight: bold;
+		}
+		
+
+                
+                .footer{
+                    text-align: center;
+                    color: white;
+                    background-color: black;
+                }
+                
+                .main{
+                    
+                }
+                
+                .h1{
+                    text-align: center;
+                }
+                .footer p{
+                    background-color: black;
+                }
+                
+                .card h2{
+                    font-size: 35px;
+                }
+                
+                .proj{
+                    font-size: 50px;
+                    font-style: oblique;
+                    text-align: center;
+                    font-weight: bold;
+                }
